@@ -1,0 +1,126 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Para animar, usamos Keyframes que son los Fotogramas Clave y su nombre "animateCss3" en este caso */
+
+@keyframes animateCss3 {
+  0% {
+    opacity: 1;
+  }
+
+  20% {
+    opacity: 1;
+  }
+
+  35% {
+    opacity: 0;
+  }
+
+  95% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes animateCss3 {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes animateCss3 {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes animateCss3 {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+#fondo1 {
+  background: url(../img/background.jpg);
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  /* Colocamos un keyframe y asignamos el valor de tiempo de la animación */
+  /* Nombre de la animación - tiempo total - transicion - delay*/
+  animation: animateCss3 24s 19s infinite;
+  -webkit-animation: animateCss3 24s 19s infinite;
+  -moz-animation: animateCss3 24s 19s infinite;
+  -o-animation: animateCss3 24s 19s infinite;
+}
+
+#fondo2 {
+  background: url(../img/background2.jpg);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  /* Colocamos un keyframe y asignamos el valor de tiempo de la animación */
+  /* Nombre de la animación - tiempo total - transicion - delay*/
+  animation: animateCss3 24s 12s infinite;
+  -webkit-animation: animateCss3 24s 12s infinite;
+  -moz-animation: animateCss3 24s 12s infinite;
+  -o-animation: animateCss3 24s 12s infinite;
+}
+
+#fondo3 {
+  background: url(../img/background3.jpg);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  /* Colocamos un keyframe y asignamos el valor de tiempo de la animación */
+  /* Nombre de la animación - tiempo total - transicion - delay*/
+  animation: animateCss3 24s 6s infinite;
+  -webkit-animation: animateCss3 24s 6s infinite;
+  -moz-animation: animateCss3 24s 6s infinite;
+  -o-animation: animateCss3 24s 6s infinite;
+}
+
+#fondo4 {
+  background: url(../img/background4.jpg);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+
+  /* Colocamos un keyframe y asignamos el valor de tiempo de la animación */
+  /* Nombre de la animación - tiempo total - transicion - delay*/
+  animation: animateCss3 24s 1s infinite;
+  -webkit-animation: animateCss3 24s 1s infinite;
+  -moz-animation: animateCss3 24s 1s infinite;
+  -o-animation: animateCss3 24s 1s infinite;
+}
